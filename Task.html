@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>Лучшие стулья</title>
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="Task.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="page page-light">
+            <div class="wrapper">
+                <header class="header">
+                    <nav>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Каталог</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Доставка</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Отзывы</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <img class="logo" src="img/logo.jpg" alt="Лого">
+                    <nav>
+                        <ul class="nav">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Контанкты</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">О нас</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Корзина</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </header>
+                <div class="main">
+                    <div class="main-item sale">
+                        <p class="sale-description">Летняя распродажа</p>
+                        <h1 class="sale-title">Скидки до 80%</h1>
+                        <a class="sale-btn" href="#">Смотреть модели</a>
+                    </div>
+                    <div class="main-item box">
+                        <div class="box-price">
+                            <p class="box-price-old">9900<span class="rub">Р</span></p>
+                            <p class="box-price-new">3500<span class="rub-new">Р</span></p>
+                        </div>
+                        <img class ="box-image" src="img/sale-img.jpg" alt="Кожаный стул">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="page page-dark">
+            <h1 class="notice-title"><span>Бесплатная доставка от 5000<span class="rub">Р</span></span></h1>
+        </div>
+        <div class="wrapper">
+            <div class="collection">
+                <div class="collection-item collection-office">
+                    <h2 class="collection-title">Для офиса</h2>
+                    <p class="collection-description">Кожаные, сетчатые, для посетителей</p>
+                    <a class="collection-btn" href="#">Перейти</a>
+                </div>
+                <div class="collection-item collection-home">
+                    <h2 class="collection-title">Для дома</h2>
+                    <p class="collection-description">Деревянные, пластиковые, обеденные</p>
+                    <a class="collection-btn" href="#">Перейти</a>
+                </div>
+            </div>
+        </div>
+        <div class="page">
+            <h2 class="title-h2">
+                Новые поступления
+            </h2>
+            <div class="product">
+                <div class="product-item">
+                    <img class="product-img" src="img/chair1.jpg" alt="Стул1">
+                    <p class="product-title">Парикмахерское <br>кресло "Норм"</p>
+                    <p class="product-price">9500<span class="rub">Р</span></p>
+                    <div class="buy">
+                        <button class="btn_modal_window">Купить</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img class="product-img" src="img/chair2.jpg" alt="Стул2">
+                    <p class="product-title">Деревянный <br>стул "ОК"</p>
+                    <p class="product-price">2400<span class="rub">Р</span></p>
+                    <div class="buy">
+                        <button class="btn_modal_window">Купить</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img class="product-img" src="img/chair3.jpg" alt="Стул3">
+                    <p class="product-title">Барный <br>стул "Амат"</p>
+                    <p class="product-price">4500<span class="rub">Р</span></p>
+                    <div class="buy">
+                        <button class="btn_modal_window">Купить</button>
+                    </div>
+                </div>
+                <div class="product-item">
+                    <img class="product-img" src="img/chair4.jpg" alt="Стул4">
+                    <p class="product-title">Офисный <br>стул "Босс"</p>
+                    <p class="product-price">24900<span class="rub">Р</span></p>
+                    <div class="buy">
+                        <button class="btn_modal_window">Купить</button>
+                    </div>
+                </div>
+            </div>
+            <h2 class="low-title-h2">
+                <a class="low-btn" href="#">Посмотреть</a>
+            </h2>
+        </div>
+        <div class="page-dark">
+            <footer>
+                <div class="footer-nav">
+                    <ul class="footer-list">
+                        <li class="footer-list-item footer-list-title">Основные ссылки</li>
+                        <li class="footer-list-item"><a class="footer-list-link" href="#">О компании</a></li>
+                        <li class="footer-list-item"><a class="footer-list-link" href="#">Каталог</a></li>
+                        <li class="footer-list-item"><a class="footer-list-link" href="#">Доставка</a></li>
+                        <li class="footer-list-item"><a class="footer-list-link" href="#">Контакты</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+        <div id="modal">
+            <span class="close_modal_window">×</span>
+            <h2 class="form__title">Отправка формы. Введите Ваши данные:</h2>
+            <form id="contact" name="contact" action="#" method="post">
+                <div class="form__item">
+                    <label for="name">Имя:</label>
+                    <input type="name" id="name" name="name" class="txt _req">
+                </div>
+                <div class="form__item">
+                    <label for="phone">Телефон:</label>
+                    <input type="phone" id="phone" name="phone" class="txt _req _phone">
+                </div>
+                <div class="form__item">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" class="txt _req _email">
+                </div>
+                <div class="form__item">
+                    <label for="item">Название товара:</label>
+                    <input type="item" id="item" name="item" class="txt _req">
+                </div>
+                <button type="submit" id="send">Отправить форму</button>
+            </form>
+        </div>
+        <script src="Task.js"></script>
+    </body>
+</html>
